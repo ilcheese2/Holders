@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "holders",
+  "version": "${version}",
+
+  "name": "Holders",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/holders/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.ilcheese2.holders.client.HoldersClient"
+    ],
+    "main": [
+      "com.github.ilcheese2.holders.Holders"
+    ]
+  },
+
+          "mixins": [
+        "holders.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.13.3",
+              "fabric": "*",
+          "minecraft": "1.18.2"
+  }
+}

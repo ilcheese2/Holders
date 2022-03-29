@@ -1,0 +1,11 @@
+{
+  "generator": {
+    "type": "holders:holder_generator",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:plains"
+    },
+    "structures": []
+  },
+  "type": "holders:holder_type"
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.ilcheese2.holders.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BedBlockMixin",
+    "MinecraftServerMixin"
+  ],
+  "client": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
